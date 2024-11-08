@@ -20,7 +20,7 @@ body{
 }
 
 h1,h2, h3{
-    border: 2px solid green;
+    /*border: 2px solid green;*/
     font-family: "Pangolin";
     margin-bottom: 30px;
 }
@@ -33,7 +33,7 @@ p{
     font-size: 18px;
     width: 300px;
     margin-bottom: 30px;
-    border: 2px solid aqua;
+    /*border: 2px solid aqua;*/
 }
 
 #headerMain{
@@ -46,7 +46,7 @@ p{
     width: 400px;
     align-items: start;
     margin-left: 30%;
-    border: 2px solid black;
+    /*border: 2px solid black;*/
 }
 
 #logo{
@@ -65,9 +65,9 @@ p{
 .btn{
     background-color: rgb(18, 76, 95);
     color: white;
-    width: 130px;
-    height: 40px;
-    font-size: 12px;
+    width: 141px;
+    height: 48px;
+    font-size: 15px;
     border-radius: 5px;
 }
 
@@ -103,19 +103,18 @@ section#knowMore{
     background-color: hsl(195, 20%, 96%);
 }
 
-
 #rightSideKM{
     flex-direction: column;
     padding: 150px 0px;
     padding-left: 60px;
     align-items: start;
-    border: 2px solid red;
+    /*border: 2px solid red;*/
     margin-right: 315px;
 }
 
 #leftSideKM{
     position: relative;
-    border: 2px solid aqua;
+    /*border: 2px solid aqua;*/
     width: 100vw;
 }
 #bg-blue{
@@ -140,6 +139,55 @@ section#knowMore{
     width: 550px;
 }
 
+#sectionPortions{
+    height: 600px;
+    width: 100%;
+    /*border: 2px solid red;*/
+    gap: 100px;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.divPortionItems{
+    flex-direction: column;
+    width: 344px;
+}
+
+.portionsIMG{
+    position: relative;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 344px;
+}
+
+.bg-short, .cat-partion-img{
+    grid-area: 1/1;
+}
+
+.cat-partion-img{
+    position: absolute;
+    height: 250px;
+    bottom: 40px;
+    right: 50px;
+}
+
+.bg-short{
+    position: absolute;
+    width: 300px;
+    height: 180px;
+    right: 0px;
+    top: 130px;
+}
+
+.btnBuy{
+    width: 300px;
+    height: 48px;
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+
 @media screen and (max-width: 1545px) { /* no Desktop */
     #headerMain{
         height: 500px;
@@ -156,7 +204,7 @@ section#knowMore{
         flex-direction: column;
         align-items: center;
         margin-left: 0;
-        border: 2px solid aqua;
+        /*border: 2px solid aqua;*/
     }
 
     h2{
@@ -200,7 +248,7 @@ section#knowMore{
     section#knowMore{
         background-color: hsl(195, 20%, 96%);
         flex-direction: column;
-        border: 4px solid aquamarine;
+        /*border: 4px solid aquamarine;*/
         height: 100%;
     }
 
@@ -209,7 +257,7 @@ section#knowMore{
         position: static;
         align-items: center;
         justify-content: center;
-        border: 2px solid green;
+        /*border: 2px solid green;*/
         height: 400px;
         width: 100%;
     }
@@ -236,7 +284,7 @@ section#knowMore{
         display: flex;
         flex-direction: column;
         align-items: center;
-        border: 2px solid red;
+        /*border: 2px solid red;*/
         height: 450px;
         width: 100%;    
         padding: 20px 0px;
@@ -250,5 +298,39 @@ section#knowMore{
     #pSideKM{
         width: 344px;
         text-align: center;
+    }
+    
+    #sectionPortions{
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        /*border: 2px solid blue;*/
+        gap: 50px;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 0px;
+    }
+
+    .divPortionItems{
+        align-items: center;
+    }
+
+    .cat-partion-img{
+        position: absolute;
+        height: 250px;
+        bottom: 40px;
+        right: 70px;
+    }
+    
+    .bg-short{
+        position: absolute;
+        width: 300px;
+        height: 180px;
+        right: 20px;
+        top: 130px;
+    }
+
+    .textPart p{
+        text-align: start/*;*/
     }
 }

@@ -14,6 +14,10 @@
     --soft-blue: #c2e0f3;
 }
 
+body{
+    background-color: rgb(249, 249, 249);
+}
+
 header{
     height: 50px;
     background-color: var(--soft-blue);
@@ -52,33 +56,15 @@ li{
     color: var(--soft-yellow);
 }
 
-h2, h3{
-    /*border: 2px solid green;*/
-    font-family: "Pangolin";
-    margin-bottom: 30px;
+#logoTitleHeader{
+    font-family: 'Pangolin', Arial, Helvetica, sans-serif;
+    color: rgb(109, 193, 199);
 }
-
-h1{
-    font-family: "Pangolin";
-}
-
-h2{
-    width: 400px;
-}
-
-p{
-    font-size: 18px;
-    width: 300px;
-    margin-bottom: 30px;
-    /*border: 2px solid aqua;*/
-}
-
 
 footer{
     background-color: rgb(243, 246, 247);
     height: 40px;
     margin-top: 40px;
-
 }
 
 #divFooter{
@@ -95,6 +81,91 @@ footer{
     font-size: 26px;
 }
 
-main{
-    height: 5000px;
+#divTitulo{
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0px;
+}
+
+#divTitulo h1{
+    font-size: 60px;
+}
+
+#sectionMain{
+    justify-content: center;
+    gap: 25px;
+    height: 700px;
+    padding-top: 10px;
+}
+
+#divSectionMain{
+    flex-direction: column;
+    width: 459px;
+    padding: 15px;
+    background-color: white;
+}
+
+#catsStreet{
+    height: 400px;
+    width: 425px;
+    margin-bottom: 20px;
+}
+
+#pPix{
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(138, 138, 138, 0.477);
+}
+
+#divSectionMain2{
+    background-color: white;
+    height: 500px;
+    width: 350px;
+    flex-direction: column;
+    padding: 20px;
+}
+
+#barra{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+#porcentagem{
+    margin-right: 10px;
+    color: rgb(36, 202, 104);
+    font-size: 20px;
+}
+
+#ladoverde{
+   background-color: rgb(36, 202, 104);
+    height: 15px;
+    width: 20px;
+    border-radius: 50px 0px 0px 50px;
+}
+
+#ladocinza{
+    background-color: rgb(241, 240, 240);
+    height: 15px;
+    width: 200px;
+    border-radius: 0px 50px 50px 0px;
+
+}
+
+h5{
+    font-size: 25px;
+    margin: 0;
+}
+
+#dinheiro{
+    color: rgb(36, 202, 104);
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+#arrecadado{
+    margin-bottom: 20px;
+}
+.cinza{
+    font-size: 24px;
+    color: rgb(138, 138, 138);
 }

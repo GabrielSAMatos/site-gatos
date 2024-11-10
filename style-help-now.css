@@ -29,6 +29,10 @@ header{
     /*border: 2px solid black;*/
 }
 
+#logoTitleHeader{
+    font-size: 31px;
+}
+
 a{
     text-decoration: none;
 }
@@ -63,6 +67,8 @@ li{
 #logoTitleHeader{
     font-family: 'Pangolin', Arial, Helvetica, sans-serif;
     color: rgb(109, 193, 199);
+    font-size: 33px;
+    margin-top: 6px;
 }
 
 footer{
@@ -76,6 +82,12 @@ footer{
     justify-content: center;
     height: 100%;
 }
+
+#divFooter span{
+    font-family: 'Pangolin', Arial, Helvetica, sans-serif;
+    color: rgb(108, 194, 199);
+}
+
 
 #logoIMGFooter{
     height: 98%;

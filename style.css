@@ -25,6 +25,10 @@ header{
     /*border: 2px solid black;*/
 }
 
+#logoTitleHeader{
+    font-size: 31px;
+}
+
 nav{
     justify-content: center;
     width: 70%;
@@ -102,6 +106,8 @@ p{
 
 .logoTitle{
     color: rgb(108, 193, 199);
+    font-size: 33px;
+    margin-top: 6px;
 }
 
 .btn{
@@ -240,6 +246,11 @@ footer{
     display: flex;
     justify-content: center;
     height: 100%;
+}
+
+#divFooter span{
+    font-family: 'Pangolin', Arial, Helvetica, sans-serif;
+    color: rgb(108, 194, 199);
 }
 
 #logoIMGFooter{

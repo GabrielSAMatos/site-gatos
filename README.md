@@ -1,6 +1,6 @@
 # site-gatos
 
-Site feito com HTML e CSS. Sobre uma ONG que ajuda Gatos de rua. Em seu menu é possível ver 3 opções (Ajudar, Sobre e Produtos). Todos os botões do menu são clicáveis, inclusive a logo "Help Cats" que ao clica-la será direcionado a página principal do site.
+Site feito com HTML, CSS e um pouco de Bootstrap. Sobre uma ONG que ajuda Gatos de rua. Em seu menu é possível ver 3 opções (Ajudar, Sobre e Produtos). Todos os botões do menu são clicáveis, inclusive a logo "Help Cats" que ao clica-la será direcionado a página principal do site.
 
 Menu -> Ajudar: ao clicar será direcionado para uma área para que você possa realizar uma doação para poder ajudar a causa, podendo ver tanto o valor arrecadado quanto a quantidade de apoiadores.
 
